@@ -47,7 +47,7 @@ client.on('messageCreate', (message) => {
 // });
 
 client.on('messageDelete', (message) => {
-  let botroom = client.channels.cache.get('1064132547103162368');
+  let botroom = client.channels.cache.get('794960072702033980');
   botroom.send(`${message.author} deleted his message: ${message.content}`);
 });
 
